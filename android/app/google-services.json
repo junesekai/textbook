@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409311860204",
+    "project_id": "flutter-login-e45c5",
+    "storage_bucket": "flutter-login-e45c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409311860204:android:2f8d899116afda4afa5cc9",
+        "android_client_info": {
+          "package_name": "com.example.appdevachi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409311860204-cg3hvkh4a5ehb919i66bjsu83mls8td5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2SRn4GefNeLTkIomqQaAstkMlGQyH1pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409311860204-cg3hvkh4a5ehb919i66bjsu83mls8td5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
