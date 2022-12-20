@@ -45,18 +45,13 @@ class ProgressionUeAff extends StatelessWidget {
                       ),),
             ),
           ),
-          ElevatedButton(
-            onPressed: () {
-              
-            },
-            child: const Text('Modifier'),
-          ),
         ],
       );
 
   Stream<List<CahierTexte>> readCahier() => FirebaseFirestore.instance
       .collection('cahier')
       .where('nom_ue', isEqualTo: nom_eu)
+      .orderBy('ajoute_le', descending: true)
       .snapshots()
       .map((snapshot) => snapshot.docs
           .map((doc) => CahierTexte.fromJson(doc.data()))

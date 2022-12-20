@@ -61,7 +61,8 @@ class RemplissageUe extends StatelessWidget {
               ),
               TextField(
                 controller: _intituleCours,
-                keyboardType: TextInputType.text,
+                keyboardType: TextInputType.multiline,
+                maxLines: 20,
                 decoration: const InputDecoration(
                   hintText: "Contenue de la seance du jour",
                 ),
